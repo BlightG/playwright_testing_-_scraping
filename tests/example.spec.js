@@ -38,8 +38,6 @@ test.describe('Single page', () => {
 
 });
 
-
-
 test('Handle multiple browser contexts', async ({ }) => {
 
     const browser = await chromium.launch({ headless: true });

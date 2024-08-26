@@ -19,3 +19,19 @@ For this exercise, we'll use a real public weather website, such as [Weather.com
 9. Extract weather information from the site.
 10. Handle dynamic content and pagination.
 11. Implement waiting strategies and handle timeouts.
+
+### How to run
+
+**Clone** into repository
+
+```sh
+git clone https://github.com/BlightG/playwright_testing_-_scraping
+cd playwright_testing_-_scraping
+```
+
+**Install** dependancies
+
+```sh
+npm install
+npx playwright test
+```
